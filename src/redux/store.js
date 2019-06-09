@@ -1,7 +1,7 @@
 import { createStore, compose } from "redux";
 import rootReducer from "./reducers";
 
-const initialState = [];
+const initialState = {};
 
 const store = createStore(
   rootReducer,
